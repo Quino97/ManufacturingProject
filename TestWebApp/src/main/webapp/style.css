@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "ptsa";
+  src: url("PTSans-Regular.ttf") format('truetype');
+}
+body {
+    background: #fff;
+    background-image: url("background2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #969696;
+    padding: 80px;
+    font-family: "ptsa";
+  }
+  [role= menuitem] {
+    color: #000;
+  }
+  #dropdownMenu2 {
+    background-color: transparent;
+    color:#969696;
+    border-color: transparent;
+  }
+
+#selimg {
+  height: 600px;
+  
+}
+
+.bkimg {
+	border-color: transparent !important;
+}
+
+.nav-top {
+  background-color: #54C2BA;
+}
+
+.nav-bot {
+  background-color: #ffcf00;
+}
+img {
+  border: 5px;
+  border-color: #fef5f5;
+  border-style: solid;
+}
+
+.galjumbo {
+  background-color: #b8fce1 !important;
+  background-size: cover;
+  height: 250px;
+  border: 0px !important;
+}
+.arcjumbo {
+  background-color: transparent !important;
+  background-size: cover;
+  height: 200px;
+  border: 0px !important;
+}
+
+
+.lcolour {
+  color: #ad592b;
+}
+
+.lcolour:hover {
+  color: #fac082;
+}
+
+.jumbotron {
+  background-color: #d0f7f5;
+  border: 5px;
+  border-color: #d0f7f5;
+  border-style: solid;
+}
+
+.btgal {
+  background-color: #969696;
+  background-color: #969696;
+  border-color: #969696;
+  color: #fef5f5;
+}
+
+.loginbtn {
+  background-color: #54C2BA;
+  border-color: #54C2BA;
+}
+
+.loginbtn:hover{
+  background-color: #969696;
+  border-color: #969696;
+  color: #fef5f5;
+}
+
+.loginbtn2 {
+  background-color: #fef5f5;
+  border-color: #fef5f5;
+  color: #969696;
+}
+.cardarc {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+
+.ddt {
+  background-color: #b8fce1;
+  color: #969696;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-color: transparent;
+  min-width: 200px;
+}
+
+.bt3 {
+  background-color: #b8fce1;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #969696;
+  border-color: transparent;
+  min-width: 200px;
+}
+
+.item {
+  flex-grow: 1;
+   
+  width: 3rem;
+  padding: 0rem 0.5rem;
+}
