@@ -1,11 +1,21 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import Extraction as ext
+import linearmodel as lm
 
-ra = ext.extract()[5]
-time = ext.extract()[4]
-vel = ext.extract()[1]
+outputs = lm.model()
+model = outputs[0]
+intercept = outputs[1]
+rsquared = outputs[2]
+slope = outputs[3]
+outpred =outputs[4]
+x = outputs[5]
+y = outputs[6]
+modout = outputs[7]
 
-print(ra)
-print(time)
-print(vel)
+plt.title("Fitted Data") 
+plt.xlabel("input") 
+plt.ylabel("output") 
+plt.plot(x,y, "ob")
+plt.plot(x,outpred, 'r') 
+plt.plot(x,modout, 'g') 
+plt.show()
